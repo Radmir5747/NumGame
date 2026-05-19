@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chalkboard"
+    tools:context=".TrainMenuActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/whiteText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/choose_theme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/trainRadioGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/trainSpinner"
+        app:layout_constraintStart_toStartOf="@+id/trainSpinner"
+        app:layout_constraintTop_toBottomOf="@+id/textView3">
+
+        <RadioButton
+            android:id="@+id/limitedTimeRadioBtn"
+            style="@style/whiteRadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/limited_time" />
+
+        <RadioButton
+            android:id="@+id/unlimitedTimeRadioBtn"
+            style="@style/whiteRadioBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unlimited_time" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/trainSpinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/white"
+        android:spinnerMode="dropdown"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        tools:listitem="@layout/dropdown_item" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/whiteText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/choose_mode"
+        app:layout_constraintEnd_toEndOf="@+id/trainSpinner"
+        app:layout_constraintStart_toStartOf="@+id/trainSpinner"
+        app:layout_constraintTop_toBottomOf="@+id/trainSpinner" />
+
+    <Button
+        android:id="@+id/startTrainBtn"
+        style="@style/paperButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/train_start"
+        app:layout_constraintEnd_toEndOf="@+id/trainRadioGroup"
+        app:layout_constraintStart_toStartOf="@+id/trainRadioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/trainRadioGroup" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Русские числительные: тренажёр</string>
+    <string name="go_back">Назад</string>
+    <!-- MainActivity -->
+    <string name="train_btn">Тренировка</string>
+    <string name="convert_btn">Склонение</string>
+    <string name="docs_btn">Справочник</string>
+    <string name="stats_btn">Статистика</string>
+    <string name="about_btn">О приложении</string>
+    <!-- AboutActivity -->
+    <string name="legalese_btn">Лицензии свободного ПО</string>
+    <string name="about_text">Это приложение предназначено для всех, кто желает проверить и улучшить свои знания по теме «Числительные».\nВыражаю большую благодарность моему учителю по русскому языку и литературе за то, что не оставила меня равнодушным к русскому языкознанию.\n© Radmir5747, 2026</string>
+    <!-- ConvertActivity -->
+    <string name="input_number">Введите число</string>
+    <string name="cardinal">Количественное числительное</string>
+    <string name="ordinal">Порядковое числительное</string>
+    <string name="collective">Собирательное числительное</string>
+    <string name="animacy">Одушевлённость</string>
+    <string name="convert_num">Просклонять</string>
+    <string name="incorrect_data">Ошибка! Введены неверные данные.</string>
+    <string name="error_occurred">При обработке данных возникло исключение!</string>
+    <!-- TrainMenuActivity -->
+    <string name="choose_theme">Выберите тему:</string>
+    <string name="choose_mode">Выберите режим:</string>
+    <string name="collective_numerals">Собирательные числительные</string>
+    <string name="both">Оба, обе</string>
+    <string name="one_hundred_half">Полтора, полторы, полтораста</string>
+    <string name="decimals">Десятичные дроби</string>
+    <string name="cardinal_single_digit">Количественные числительные от&#160;0 до&#160;9</string>
+    <string name="cardinal_two_digits">Количественные числительные от&#160;10 до&#160;99</string>
+    <string name="cardinal_three_digits">Количественные числительные от&#160;100 до&#160;999</string>
+    <string name="ordinal_single_digit">Порядковые числительные от 0&#160;до&#160;9</string>
+    <string name="ordinal_two_digits">Порядковые числительные от 10&#160;до&#160;99</string>
+    <string name="ordinal_three_digits">Порядковые числительные от 100&#160;до&#160;999</string>
+    <string name="random_cardinals">Случайные количественные числительные</string>
+    <string name="big_ordinals">Сложные порядковые числительные</string>
+    <string name="limited_time">На время</string>
+    <string name="unlimited_time">Без временных ограничений</string>
+    <string name="train_start">Начать тренировку</string>
+    <!-- TrainActivity -->
+    <string name="train_finish">Завершить тренировку</string>
+    <string name="input_numeral">Введите число прописью</string>
+    <string name="next">Далее</string>
+    <string name="hint">Подсказка</string>
+    <string name="incorrect">Неправильно!</string>
+    <string name="gender">%1$s род</string>
+    <string name="count">%1$s число</string>
+    <string name="gram_case">%1$s падеж</string>
+    <string name="masculine">Мужской</string>
+    <string name="feminine">Женский</string>
+    <string name="neuter">Средний</string>
+    <string name="singular">Единственное</string>
+    <string name="plural">Множественное</string>
+    <string name="nominative">Именительный</string>
+    <string name="genitive">Родительный</string>
+    <string name="dative">Дательный</string>
+    <string name="accusative">Винительный</string>
+    <string name="instrumental">Творительный</string>
+    <string name="prepositional">Предложный</string>
+    <string name="animate">Одушевлённое</string>
+    <string name="inanimate">Неодушевлённое</string>
+    <!-- ResultsActivity -->
+    <string name="repeat_training">Повторить тренировку</string>
+    <string name="you_stink">Попробуйте ещё раз.</string>
+    <string name="even_results">Неплохо, но могло быть лучше.</string>
+    <string name="good_work">Отличный результат!</string>
+    <!-- StatsActivity -->
+    <string name="no_stats">Возможно, самое время потренироваться!</string>
+    <string name="clear_stats">Очистить статистику</string>
+    <string name="clear_stats_confirm">Вы точно хотите очистить статистику?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <!-- \n нужен для того, чтобы гистограмма не прыгала -->
+    <string name="click_to_view_stats">Нажмите на столбец, чтобы посмотреть тему\n</string>
+    <string name="correct_nums">Правильно</string>
+    <string name="incorrect_nums">Неправильно</string>
+    <string name="stats_details">%1$s\nПравильно: %2$s, неправильно: %3$s</string>
+</resources>

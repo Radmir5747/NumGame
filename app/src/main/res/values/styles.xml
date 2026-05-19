@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="paperButton">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColor">@color/pen</item>
+        <item name="fontFamily">@font/bad_script</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.Material3.Corner.None</item>
+        <item name="cornerRadius">8dp</item>
+        <!--<item name="materialThemeOverlay">@style/MaterialRedButtonThemeOverlay</item>-->
+    </style>
+
+    <style name="MaterialRedButtonThemeOverlay">
+        <item name="colorPrimary">@android:color/darker_gray</item>
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+
+    <style name="whiteRadioBtn">
+        <item name="android:fontFamily">@font/bad_script</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="buttonTint">@color/white</item>
+    </style>
+
+    <style name="whiteText">
+        <item name="android:fontFamily">@font/bad_script</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="whiteEditText" parent="whiteText">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textCursorDrawable">@null</item>
+    </style>
+</resources>

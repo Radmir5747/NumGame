@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chalkboard"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="aboutBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/trainBtn"
+        style="@style/paperButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/train"
+        android:text="@string/train_btn"
+        app:layout_constraintBottom_toBottomOf="@+id/group"
+        app:layout_constraintEnd_toEndOf="@+id/aboutBtn"
+        app:layout_constraintStart_toStartOf="@+id/aboutBtn" />
+
+    <Button
+        android:id="@+id/convertBtn"
+        style="@style/paperButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/convert"
+        android:text="@string/convert_btn"
+        app:layout_constraintEnd_toEndOf="@+id/aboutBtn"
+        app:layout_constraintStart_toStartOf="@+id/aboutBtn"
+        app:layout_constraintTop_toBottomOf="@+id/trainBtn" />
+
+    <Button
+        android:id="@+id/docsBtn"
+        style="@style/paperButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/book"
+        android:text="@string/docs_btn"
+        app:layout_constraintEnd_toEndOf="@+id/aboutBtn"
+        app:layout_constraintStart_toStartOf="@+id/aboutBtn"
+        app:layout_constraintTop_toBottomOf="@+id/convertBtn" />
+
+    <Button
+        android:id="@+id/statsBtn"
+        style="@style/paperButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/stats"
+        android:text="@string/stats_btn"
+        app:layout_constraintEnd_toEndOf="@+id/aboutBtn"
+        app:layout_constraintStart_toStartOf="@+id/aboutBtn"
+        app:layout_constraintTop_toBottomOf="@+id/docsBtn" />
+
+    <Button
+        android:id="@+id/aboutBtn"
+        style="@style/paperButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:drawableLeft="@drawable/info"
+        android:text="@string/about_btn"
+        app:layout_constraintEnd_toStartOf="@+id/guideline5"
+        app:layout_constraintStart_toStartOf="@+id/guideline4"
+        app:layout_constraintTop_toBottomOf="@+id/statsBtn" />
+
+    <TextView
+        android:id="@+id/mainscreenTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bad_script"
+        android:text="@string/app_name"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/group"
+        app:layout_constraintEnd_toEndOf="@id/group"
+        app:layout_constraintStart_toStartOf="@+id/group"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        app:layout_constraintBottom_toTopOf="@+id/mainscreenTitle"
+        app:layout_constraintEnd_toEndOf="@+id/mainscreenTitle"
+        app:layout_constraintStart_toStartOf="@+id/mainscreenTitle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icon" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15085158" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.84" />
+</androidx.constraintlayout.widget.ConstraintLayout>

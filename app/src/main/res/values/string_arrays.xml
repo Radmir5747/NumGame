@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="train_options">
+        <item>@string/cardinal_single_digit</item>
+        <item>@string/cardinal_two_digits</item>
+        <item>@string/cardinal_three_digits</item>
+        <!--<item>@string/one_hundred_half</item>-->
+        <item>@string/random_cardinals</item>
+        <item>@string/decimals</item>
+        <item>@string/ordinal_single_digit</item>
+        <item>@string/ordinal_two_digits</item>
+        <item>@string/ordinal_three_digits</item>
+        <item>@string/big_ordinals</item>
+        <item>@string/collective_numerals</item>
+        <!--<item>@string/both</item>-->
+    </string-array>
+    <string-array name="masc_an_sing">
+        <item>осёл</item>
+        <item>осла</item>
+        <item>ослу</item>
+        <item>осла</item>
+        <item>ослом</item>
+        <item>осле</item>
+    </string-array>
+    <string-array name="masc_an_pl">
+        <item>ослы</item>
+        <item>ослов</item>
+        <item>ослам</item>
+        <item>ослов</item>
+        <item>ослами</item>
+        <item>ослах</item>
+    </string-array>
+    <string-array name="masc_in_sing">
+        <item>метр</item>
+        <item>метра</item>
+        <item>метру</item>
+        <item>метр</item>
+        <item>метром</item>
+        <item>метре</item>
+    </string-array>
+    <string-array name="masc_in_pl">
+        <item>метры</item>
+        <item>метров</item>
+        <item>метрам</item>
+        <item>метры</item>
+        <item>метрами</item>
+        <item>метрах</item>
+    </string-array>
+    <string-array name="fem_an_sing">
+        <item>мышь</item>
+        <item>мыши</item>
+        <item>мыши</item>
+        <item>мышь</item>
+        <item>мышью</item>
+        <item>мыши</item>
+    </string-array>
+    <string-array name="fem_an_pl">
+        <item>мыши</item>
+        <item>мышей</item>
+        <item>мышам</item>
+        <item>мышей</item>
+        <item>мышами</item>
+        <item>мышах</item>
+    </string-array>
+    <string-array name="fem_in_sing">
+        <item>ночь</item>
+        <item>ночи</item>
+        <item>ночи</item>
+        <item>ночь</item>
+        <item>ночью</item>
+        <item>ночи</item>
+    </string-array>
+    <string-array name="fem_in_pl">
+        <item>ночи</item>
+        <item>ночей</item>
+        <item>ночам</item>
+        <item>ночи</item>
+        <item>ночами</item>
+        <item>ночах</item>
+    </string-array>
+    <string-array name="neut_an_sing">
+        <item>чудище</item>
+        <item>чудища</item>
+        <item>чудищу</item>
+        <item>чудище</item>
+        <item>чудищем</item>
+        <item>чудище</item>
+    </string-array>
+    <string-array name="neut_an_pl">
+        <item>чудища</item>
+        <item>чудищ</item>
+        <item>чудищам</item>
+        <item>чудищ</item>
+        <item>чудищами</item>
+        <item>чудищах</item>
+    </string-array>
+    <string-array name="neut_in_sing">
+        <item>село</item>
+        <item>села</item>
+        <item>селу</item>
+        <item>село</item>
+        <item>селом</item>
+        <item>селе</item>
+    </string-array>
+    <string-array name="neut_in_pl">
+        <item>сёла</item>
+        <item>сёл</item>
+        <item>сёлам</item>
+        <item>сёла</item>
+        <item>сёлами</item>
+        <item>сёлах</item>
+    </string-array>
+    <string-array name="pl_tantum">
+        <item>сутки</item>
+        <item>суток</item>
+        <item>суткам</item>
+        <item>сутки</item>
+        <item>сутками</item>
+        <item>сутках</item>
+    </string-array>
+    <string-array name="coll_2_sing">
+        <item>котёнок</item>
+        <item>котёнка</item>
+        <item>котёнку</item>
+        <item>котёнка</item>
+        <item>котёнком</item>
+        <item>котёнке</item>
+    </string-array>
+    <string-array name="coll_2_pl">
+        <item>котята</item>
+        <item>котят</item>
+        <item>котятам</item>
+        <item>котят</item>
+        <item>котятами</item>
+        <item>котятах</item>
+    </string-array>
+    <string-array name="coll_3_sing">
+        <item>козлёнок</item>
+        <item>козлёнка</item>
+        <item>козлёнку</item>
+        <item>козлёнка</item>
+        <item>козлёнком</item>
+        <item>козлёнке</item>
+    </string-array>
+    <string-array name="coll_3_pl">
+        <item>козлята</item>
+        <item>козлят</item>
+        <item>козлятам</item>
+        <item>козлят</item>
+        <item>козлятами</item>
+        <item>козлятах</item>
+    </string-array>
+    <string-array name="prefixes">
+        <item />
+        <item>нет</item>
+        <item>рад</item>
+        <item>вижу</item>
+        <item>с</item>
+        <item>о</item>
+    </string-array>
+    <string-array name="num_sing">
+        <item>число</item>
+        <item>числа</item>
+        <item>числу</item>
+        <item>число</item>
+        <item>числом</item>
+        <item>числе</item>
+    </string-array>
+    <string-array name="num_pl">
+        <item>числа</item>
+        <item>чисел</item>
+        <item>числам</item>
+        <item>числа</item>
+        <item>числами</item>
+        <item>числах</item>
+    </string-array>
+</resources>

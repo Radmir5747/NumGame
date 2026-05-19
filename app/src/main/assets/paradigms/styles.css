@@ -1,0 +1,14 @@
+body {
+    background-color: #2F754B;
+    color: white;
+}
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 4px;
+}
+.flexed {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
